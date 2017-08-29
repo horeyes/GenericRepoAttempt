@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenericRepoExample.RepoPattern.EF\GenericRepoExample.RepoPattern.csproj" />
+    <ProjectReference Include="..\GenericRepoExample\GenericRepoExample.csproj" />
+  </ItemGroup>
+
+</Project>
